@@ -1,6 +1,6 @@
 FROM debian:buster-slim
 
-RUN apt-get update && apt-get install -y apt-transport-https ca-certificates
+RUN apt-get update && apt-get install -y apt-transport-https ca-certificates apt-utils
 
 COPY sources.list /etc/apt/sources.list
 
